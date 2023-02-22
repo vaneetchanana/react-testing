@@ -1,9 +1,11 @@
+import Main from "./components/Main";
 
 function App() {
   console.log('hello')
   return (
     <div className="App">
-    Hello from vaneet
+      <div>hello from vaneet</div>
+      <Main />
     </div>
   );
 }
